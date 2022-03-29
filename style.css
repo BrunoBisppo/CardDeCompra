@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+/* font-family: 'Red Hat Display', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card{
+    width: 350px;
+    height: 550px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 1px 6px rgba(0, 0, 0, 0.589);
+}
+
+.banner-card > img{
+    width: 100%;   
+    border-radius: 15px 15px 0px 0px;
+}
+
+.titulo-card{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.texto-card{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-preco{
+    width: 300px;
+    margin: 0 auto;
+    background-color: hsla(225, 100%, 96%, 0.603);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.container-preco img{
+    margin-left: 5px;
+}
+
+.preco-descricao{
+    display: flex;
+    width: 300px;
+}
+
+.music-logo{
+    width: 48px;
+}
+
+.preco-descricao h2{
+    height: 30px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.preco-descricao p{
+    height: 20px;
+    position: relative;
+    top: 30px; 
+    right: 90px;
+    font-size: 16px;
+}
+
+.container-preco a{
+    margin-right: 7px;
+}
+
+.botao-compra{
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0.699);
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: 2px 2px 7px black;
+}
+
+.botao-compra a{
+    text-decoration: none;
+    color: white;
+}
+.botao-compra:hover{
+    transform: scale(1.1);
+    transition: 600ms;
+    background-color: blue;
+}
+
+.botao-cancelar{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.botao-cancelar a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+.botao-cancelar a:hover{
+    color: blue;
+}
