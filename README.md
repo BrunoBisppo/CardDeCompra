@@ -1,4 +1,4 @@
-# Frontend Mentor - Card De Compra
+# Frontend Mentor - Card De Compra imagem de referência embaixo
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
