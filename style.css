@@ -19,7 +19,7 @@ body{
 
 .card{
     width: 350px;
-    height: 550px;
+    height: 530px;
     background-color: white;
     border-radius: 15px;
     box-shadow: 5px 1px 6px rgba(0, 0, 0, 0.589);
@@ -58,31 +58,19 @@ body{
     align-items: center;
 }
 
-.container-preco img{
-    margin-left: 5px;
-}
-
 .preco-descricao{
     display: flex;
     width: 300px;
 }
 
-.music-logo{
-    width: 48px;
+.preco-descricao img{
+    margin-right: 15px;
+    margin-left: 10px;
 }
-
 .preco-descricao h2{
     height: 30px;
-    margin-left: 15px;
     font-size: 17px;
     font-weight: bold;
-}
-.preco-descricao p{
-    height: 20px;
-    position: relative;
-    top: 30px; 
-    right: 90px;
-    font-size: 16px;
 }
 
 .container-preco a{
